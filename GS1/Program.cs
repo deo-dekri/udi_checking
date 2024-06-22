@@ -16,7 +16,9 @@ namespace GS1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainWindow());
+            Application.Run(new LoginForm());
+            //LoginForm loginForm = new LoginForm();
+            //loginForm.ShowDialog();
         }
     }
 }

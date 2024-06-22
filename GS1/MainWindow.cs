@@ -15,6 +15,33 @@ namespace GS1
         public MainWindow()
         {
             InitializeComponent();
+            userActionPanel.Visible = false;
+        }
+
+        private void lblChangeuser_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Hide();
+        }
+
+        private void lblLogout_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+        }
+
+        private void mouseUpOnUserIcon(object sender, MouseEventArgs e)
+        {
+            if (userActionPanel.Visible)
+            {
+                userActionPanel.Visible = false;
+            }
+            else
+            {
+                userActionPanel.Visible = true;
+            }
+            
         }
     }
 }

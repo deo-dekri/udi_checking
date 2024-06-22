@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\bin\Debug\GS1.exe.config
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\bin\Debug\GS1.exe
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\bin\Debug\GS1.pdb
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.MainWindow.resources
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.exe
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.pdb
+C:\Users\Administrator\Documents\GitHub\udi_checking\GS1\obj\Debug\GS1.LoginForm.resources
