@@ -145,7 +145,7 @@
             this.userActionPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.userActionPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.userActionPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.userActionPanel.Size = new System.Drawing.Size(200, 80);
+            this.userActionPanel.Size = new System.Drawing.Size(200, 0);
             this.userActionPanel.TabIndex = 5;
             // 
             // lblLogout
@@ -213,6 +213,7 @@
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GS1 Checking";
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.topPanel.ResumeLayout(false);
             this.topPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

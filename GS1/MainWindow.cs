@@ -43,5 +43,10 @@ namespace GS1
             }
             
         }
+
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+            userActionPanel.Height = 80;
+        }
     }
 }

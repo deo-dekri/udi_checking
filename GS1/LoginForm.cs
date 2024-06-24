@@ -59,11 +59,12 @@ namespace GS1
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            //this.Close();
-            Application.Exit();
-            //GS1.LoginForm.ActiveForm.Close();
-        }
+            DialogResult result = MessageBox.Show("Are you sure to quit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
-        
+            if( result == DialogResult.Yes )
+            {
+                Application.Exit();
+            }
+        } 
     }
 }
